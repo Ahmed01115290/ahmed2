@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/js/fontawesome.min.js">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+    <div class="ahm">
+        <h1>ABO <SPAn>ATYIA</SPAn> </h1>
+        <h2>LOG IN</h2>
+        <div id="error"></div>
+        <form onsubmit="return validation();" novalidate class="form">
+
+            <input type="email" placeholder="email" id="email">
+            <span id="error" style="color: red;"></span><br />
+            <input type="password" placeholder="password" id="phone">
+            <button id="submit">LOG IN</button>
+           
+        </form>
+        <a href="sign in.html">
+            <button id="creat"> CREAT ACCOUNT </button>
+        </a>
+    </div>
+    <div class="social">
+
+        <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+        <a href=""><i class="fab fa-twitter"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-linkedin-in"></i></a>
+        <a href=""><i class="fa-duotone fa-circle-plus"></i></a>
+
+    </div>
+<div class="log" >
+    <h1>MY COMPANY </h1>
+    <h2>Recent logins</h2>
+       <H6>Click your picture or add an account.</H6> 
+</div>
+<div class="img" >
+    <div class="img1"  ><img src="photo_2.jpg" alt="" width="150"  > <h3>AHMED</h3> </div>
+    <div class="img1" ><img src="a2.jpg" alt=""width="140" ><h3>MOSTAFA</h3></div>
+    <div class="img1" ><button>
+        <span>
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M11 11V5h2v6h6v2h-6v6h-2v-6H5v-2z"></path></svg> Create
+        </span>
+      </button></div>
+</div>
+
+</header>
+    <script src="index.js"></script>
+</body>
+
+</html>
